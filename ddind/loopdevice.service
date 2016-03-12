@@ -1,0 +1,9 @@
+[Unit]
+Description=Setup Loop Devices
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh /init.sh
+
+[Install]
+WantedBy=multi-user.target
