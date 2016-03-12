@@ -5,7 +5,7 @@
 
 The Container supports running docker daemon via systemd
 
-**Running Docker Service in libvirtd in a container**
+**Running Docker Service in Docker container**
 ------------------------------------------
 The container will need to be run in priviledged mode. e.g.
 ```
